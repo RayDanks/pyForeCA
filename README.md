@@ -21,7 +21,7 @@ Use this object to run analysis on your chosen series
 ```
 output = foreca_obj.run(series)
 ```
-Your series is expected to be a multivariate time series. If the number of components (n_comp) is not passed to the object, then it is inferred from the series. Currently Pandas DataFrames and Numpy Arrays are supported as multivariate inputs.
+Your series is expected to be a multivariate (multi-column) time series. Currently Pandas DataFrames and Numpy Arrays are supported as multivariate inputs.
 
 The output is in the form of a Pandas DataFrame with all relevant results and components.
 
